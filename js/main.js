@@ -11,7 +11,6 @@ const swiper = new Swiper('.swiper-container', {
     keyboard: {
       enabled: 'true',
       onlyInViewport: 'true',
-      // pageUpDown: 'false',
     },
   });
   

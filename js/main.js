@@ -13,7 +13,7 @@ const hotelSlider = new Swiper(".hotel-slider", {
     onlyInViewport: "true",
   },
 });
-var reviewsSlider = new Swiper(".reviews-slider", {
+const reviewsSlider = new Swiper(".reviews-slider", {
   // Optional parameters
   loop: true,
 
@@ -29,5 +29,5 @@ menuButton.addEventListener("click", function () {
   console.log("Клик по кнопке меню");
   document
     .querySelector(".navbar-bottom")
-    .classList.toggle(".navbar-bottom--visible");
+    .classList.toggle("navbar-bottom--visible");
 });
